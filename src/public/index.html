@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Slider | v2</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <h1>Slider | v2</h1>
+        <hr />
+        <br />
+        <div class="slider-container">
+            <template id="slider-item-template">
+                <div class="slider-item">
+                    <h3 class="slider-name"></h3>
+                    <img class="slider-image" />
+                </div>
+            </template>
+            <div class="slider-items-container">
+                <a type="button" class="btn btn-prev" id="btn-prev"><</a>
+                <a type="button" class="btn btn-next" id="btn-next">></a>
+                <div class="controls"></div>
+            </div>
+        </div>
+        <script src="./js/script.js" type="module"></script>
+    </body>
+</html>

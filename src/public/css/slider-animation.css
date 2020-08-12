@@ -1,0 +1,103 @@
+@keyframes to-right-center {
+    0% {
+        right: -100%;
+    }
+    100% {
+        right: 0%;
+    }
+}
+
+.to-right-center {
+    z-index: 1;
+    animation-name: to-right-center;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    -moz-animation-name: to-right-center;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-name: to-right-center;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    -o-animation-name: to-right-center;
+    -o-animation-duration: 1s;
+    -o-animation-iteration-count: 1;
+}
+
+@keyframes to-center-left {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: -100%;
+    }
+}
+
+.to-center-left {
+    z-index: 1;
+    animation-name: to-center-left;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    -moz-animation-name: to-center-left;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-name: to-center-left;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    -o-animation-name: to-center-left;
+    -o-animation-duration: 1s;
+    -o-animation-iteration-count: 1;
+}
+
+@keyframes to-left-center {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+.to-left-center {
+    z-index: 1;
+    animation-name: to-left-center;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    -moz-animation-name: to-left-center;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-name: to-left-center;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    -o-animation-name: to-left-center;
+    -o-animation-duration: 1s;
+    -o-animation-iteration-count: 1;
+}
+
+@keyframes to-center-right {
+    0% {
+        right: 0%;
+    }
+    100% {
+        right: -100%;
+    }
+}
+
+.to-center-right {
+    z-index: 1;
+    animation-name: to-center-right;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    -moz-animation-name: to-center-right;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: 1;
+    -webkit-animation-name: to-center-right;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+    -o-animation-name: to-center-right;
+    -o-animation-duration: 1s;
+    -o-animation-iteration-count: 1;
+}
+
+.active {
+    z-index: 1;
+}
